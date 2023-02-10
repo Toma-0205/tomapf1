@@ -39,6 +39,7 @@ body{
 
 .work-img{
     margin-top: 8px;
+    max-width:320px;
 }
 
 .footer{
