@@ -51,7 +51,7 @@ img{
     text-decoration: underline;
 }
 
-.section-ttl p{
+.section-ttl li{
     margin: 0 0 1em 0;
     list-style-type: none;
     font-style: 24px;
@@ -61,7 +61,7 @@ img{
     display: none;
 }
 
-.section-wrap p{
+.section-wrap li{
     margin-top: 24px;
 }
 
