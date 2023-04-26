@@ -75,6 +75,10 @@ img{
     text-align: center;
 }
 
+.footer-update{
+    float: right;
+}
+
 .footer-cr{
     font-style: 12px;
 }
