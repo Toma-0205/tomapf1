@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Toma Morishita | Profile</title>
+    <meta name="description" content="プロフィールサイトを通してHTMLとCSSの基本を身につけましょう">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="https://github.com/Toma-0205/tomapf1/blob/main/winterhorse.png?raw=true">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="wrapper">
+<h1 class="name">森下冬馬</h1>
+    <div class="container">
+        <div class="profile-img">
+            <img src="https://github.com/Toma-0205/tomapf1/blob/main/my.png?raw=true" alt="森下冬馬の写真">
+        </div>
+
+        <section class="section-wrap">
+            <div class="section-ttl">
+                <h2>プロフィール</h2>
+                <ul class="hidden">
+                    <li>生年月日: 1997.2.5</li>
+                    <li>出身: 日本 in kamakura</li>
+                    <li>趣味: サッカー / フットサル / カラオケ / 読書</li>
+                    <li>好きな言葉: 人生どうなるかはあらかじめ決まっている</li>
+                </ul>  
+            </div>
+        </section>
+
+        <section class="section-wrap">
+            <div class="section-ttl">
+                <h2>略歴</h2>
+                <ul class="hidden">
+                    <li>2015.3 神奈川県立金井高等学校 入学</li>
+                    <li>2015.3 神奈川県立金井高等学校 卒業</li>
+                    <li>2019.3 関東学院大学経済学部経営学科 入学</li>
+                    <li>2019.3 関東学院大学経済学部経営学科 卒業</li>
+                    <li>2019.4 絆ホールディングス株式会社 入社</li>
+                    <li>2020.3 絆ホールディングス株式会社 退社</li>
+                    <li>2020.5 株式会社GOOYAホールディングス 入社</li>
+                    <li>2023.4 株式会社GOOYAホールディングス 退社</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-wrap">
+            <div class="section-ttl">
+                <h2>使用可能な言語</h2>
+                <ul class="hidden">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>Jquery</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-wrap">
+            <div class="section-ttl">
+                <h2>私のポートフォリオ</h2>
+                <ul class="hidden">
+                    <li>冬馬のアイコン</li>
+                    <div class="work-img">
+                        <img src="https://github.com/Toma-0205/tomapf1/blob/main/winterhorse.png?raw=true" alt="冬馬のアイコン">
+                    </div>
+                    <li>王冠のアイコン</li>
+                    <div class="work-img">
+                        <img src="https://github.com/Toma-0205/-caviar/blob/main/%E3%82%AD%E3%83%A3%E3%83%92%E3%82%99%E3%82%A2%E7%8E%8B%E5%9B%BD.png?raw=true" alt="王冠のアイコン">
+                    </div>
+                    <li>EQのプロフ</li>
+                    <div class="work-img">
+                        <img src="https://github.com/Toma-0205/tomapf1/blob/main/eq.png?raw=true" alt="EQのプロフ">
+                    </div>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <small class="footer-cr">&copy:2023 Toma Morishita</small>
+    </footer>
+    <!-- <script src="https://github.com/Toma-0205/tomapf1/blob/main/jquery"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+    'use strict';
+
+    $(document).ready(function(){
+        $('.section-ttl h2').on('click', function(){
+            $(this).next().toggleClass('hidden');
+        });
+    });
+    </script>
+</div>
+</body>
+</html>
